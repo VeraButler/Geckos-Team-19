@@ -1,7 +1,8 @@
 import { ADD_ERROR, REMOVE_ERROR } from '../constants/ActionTypes';
 
 export const addError = error => ({
-    type:ADD_ERROR,
+    type: ADD_ERROR,
+    message: "There was an error.",
     error
 })
 

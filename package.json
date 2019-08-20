@@ -30,6 +30,7 @@
     "nodemon": "^1.18.9"
   },
   "devDependencies": {
-    "case-sensitive-paths-webpack-plugin": "^2.2.0"
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "gh-pages": "^2.0.1"
   }
 }

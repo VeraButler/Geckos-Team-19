@@ -33,7 +33,7 @@ export const fetchTodos = () => (dispatch, getState) => {
         .then(function(res) {
             dispatch(loadTodos(res));
         })
-        .catch(function(err) {
+        .catch(function (err) {
             addError(err.message);
         });
 
